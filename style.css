@@ -130,3 +130,27 @@ body {
     padding:50px;
   }
 
+  .quotesection{
+    background:#E5E7EB;
+    padding:120px;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .testimonial{
+    background:#E5E7EB;
+    font-style:italic;
+    color:#1F2937;
+    font-size:36px;
+    align-self:center;
+  }
+
+  .credit{
+    font-style:bold;
+    font-size:20px;
+    color:#1F2937;
+    align-self:flex-end;
+  }
+
+  
+
