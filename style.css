@@ -77,7 +77,7 @@ body {
     color:#F9FAF8
  }
 
- button {
+ #heroButton {
     background:#3882F6;
     color:#F9FAF8;
     font-size: 18px;
@@ -152,5 +152,51 @@ body {
     align-self:flex-end;
   }
 
+  .botwhite{
+    background-color:white;
+    padding:100px;
+  }
+
+  .bottomsec {
+    flex: 1;
+    display: flex;
+    background-color:#3882F6;
+    padding:50px;
+    gap: 50px;
+    border-radius:10px;
+    justify-content:space-around;
+  }
+
+  .call{
+    color:white;
+    font-style: bold;
+    font-size:24px;
+  }
+
+  .callsub{
+    color:white;
+    font-size:18px;
+  }
+
+  #bottomButton{
+    background:#3882F6;
+    border-radius:10px;
+    border: 2px solid white;
+    color:white;
+    font-style:bold;
+    font-size:18px;
+    width:130px;
+    height:40px;
+  }
+
+  .footer {
+    background:#1F2937;
+    color:#E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+  }
   
+
 
