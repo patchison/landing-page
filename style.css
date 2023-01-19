@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     margin: 0;
@@ -9,8 +9,10 @@ body {
   .header {
     background:#1F2937;
     display: flex;
-    justify-content: space-around;
+    align-items:center;
+    justify-content: center;
     padding: 8px;
+    gap:520px;
   }
   
   .logo {
@@ -20,7 +22,7 @@ body {
     
   }
   
-  a {
+  a, .hsubtext {
     /* this removes the line under our links */
     text-decoration: none;
     color: #E5E7EB;
@@ -40,3 +42,59 @@ body {
     align-items:center;
     gap: 16px;
   }
+
+ .hero {
+    flex: 1;
+    display: flex;
+    background-color: #1F2937;
+    padding:80px;
+    gap: 50px;
+  }
+
+ .hleft, .hright{
+    width:450px;
+    padding: 25px;
+ }
+
+ .hleft{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    gap:10px;
+ }
+
+ .htext {
+    width:400px;
+    font-size:48px;
+    font-style:bold;
+    font-weight:700px;
+    color:#F9FAF8
+ }
+
+ .hsubtext {
+    width:450px;
+    font-size:18px;
+    color:#F9FAF8
+ }
+
+ button {
+    background:#3882F6;
+    color:#F9FAF8;
+    font-size: 18px;
+    font-style:extra-bold;
+    border-radius:10px;
+    border-color:transparent;
+    width: 120px;
+    height:40px;
+ }
+
+ .placeholder {
+    background: gray;
+    width: 500px;
+    height: 250px;
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
